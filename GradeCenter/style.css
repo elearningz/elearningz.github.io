@@ -8,12 +8,13 @@ body {
   color: #333;
 }
 
-p {margin-bottom: 1.3em;}
+p {margin-bottom: 1.3em; max-width: 720px;}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+  max-width: 720px;
 }
 
 h1 {
@@ -28,3 +29,7 @@ h3 {font-size: 1.999em;}
 h4 {font-size: 1.414em;}
 
 small, .font_small {font-size: 0.707em;}
+
+img {
+  width: auto;
+}
